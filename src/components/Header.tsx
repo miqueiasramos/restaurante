@@ -27,9 +27,6 @@ export default function Header({ name, onChangeName, theme, setTheme }: Props) {
         </nav>
 
         <div className="controls">
-          <input
-  
-          />
           <button
             onClick={()=> setTheme(theme === "light" ? "dark" : "light")}
             title="Alternar tema"
